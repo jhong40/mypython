@@ -5,7 +5,7 @@ https://stackoverflow.com/questions/57217924/pyppeteer-errors-browsererror-brows
 apt install python3-pip
 pip3 --version
 pip3 install pyppeteer
-python3 picture.pl   # download chrome
+python3 screenshot.py   # download chrome
 
 # fix browser issue
 ldd ~/.local/share/pyppeteer/local-chromium/588429/chrome-linux/chrome
@@ -18,7 +18,7 @@ sudo apt install google-chrome-stable
 apt install libxss1
 sudo apt install fonts-wqy-zenhei
 
-python3 picture.py   # should work
+python3 screenshot.py   # should work
 
 ```
 
