@@ -1,4 +1,4 @@
-mport asyncio
+import asyncio
 from pyppeteer import launch
 
 async def main():
